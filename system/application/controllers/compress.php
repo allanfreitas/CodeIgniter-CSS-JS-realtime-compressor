@@ -106,5 +106,5 @@ class Compress extends Controller
 
 }
 
-/* End of file api.php */
-/* Location: ./system/application/controllers/api.php */
+/* End of file compress.php */
+/* Location: ./system/application/controllers/compress.php */
