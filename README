@@ -1,0 +1,25 @@
+This is easy to set up... Copy this file structure to your project and use
+the following lines in your HTML to create a cached file on your system
+containing all CSS or all JS in just one file... Which means less HTTP-calls
+from the browser and a faster browsing experience.
+
+	<link rel="stylesheet" type="text/css" href="{index.php}/compress/css" />
+	<script type="text/javascript" src="{index.php}/compress/js"></script>
+
+Then add your files and folders in /system/application/controllers/compress.php.
+
+Make sure that the directories you specifiy for the cache files are writeble by
+the script.
+
+CodeIgniter JS+CSS compressor script
+--------------------------------------------------------------------------------
+Copyright (C) 2009 Christoffer Lejdborg (www.lejdborg.se)
+
+JS-MIN (used the script)
+--------------------------------------------------------------------------------
+Copyright (c) 2002 Douglas Crockford  (www.crockford.com)
+
+
+
+You may use the script in any way you like as long as you keep the credits. The
+script is released under LGPL.
